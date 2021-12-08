@@ -13,6 +13,8 @@ k = print ("Podaj koordynaty pola")
 z.insert(0,'X')
 z.remove(z[1])
 plansza()
+def ustaw(co,gdzie)
+    if gdzie
 
 
 
@@ -44,3 +46,4 @@ plansza()
 
 
 
+.
