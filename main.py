@@ -13,8 +13,6 @@ k = print ("Podaj koordynaty pola")
 z.insert(0,'X')
 z.remove(z[1])
 plansza()
-def ustaw(co,gdzie)
-    if gdzie
 
 
 
@@ -46,4 +44,10 @@ def ustaw(co,gdzie)
 
 
 
-.
+
+if x.count == 3:
+    print("you win")
+if y.count == 3:
+    print("you win")
+if z.count == 3:
+    print("you win")
