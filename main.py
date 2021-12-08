@@ -8,13 +8,24 @@ z = ["-","-","-"]
 
 def plansza():
     print('\n',x,'\n',y,'\n',z)
-plansza()
-k = print ("Podaj koordynaty pola")
-z.insert(0,'X')
-z.remove(z[1])
-plansza()
-def ustaw(co,gdzie)
-    if gdzie
+#plansza()
+#k = print ("Podaj koordynaty pola")
+def ustaw(co,gdzie):
+    if gdzie > 6:
+        x.insert(gdzie, 'X')
+        x.remove(z[gdzie+1])
+    elif gdzie > 3:
+        y.insert(gdzie, 'X')
+        y.remove(z[gdzie+1])
+    else:
+        z.insert(gdzie-1, 'X')
+        print(z)
+        #print(len(z))
+        z.insert(z[gdzie],)
+#        print(gdzie+1)
+        print(z)
+ustaw("X",3)
+print(z)
 
 
 
@@ -44,6 +55,4 @@ def ustaw(co,gdzie)
 
 
 
-
-
-.
+#.
