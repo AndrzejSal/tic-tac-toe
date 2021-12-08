@@ -8,3 +8,4 @@ z = ["-","-","-"]
 
 
 print('\n',x,'\n',y,'\n',z)
+k = print ("Podaj koordynaty pola")
