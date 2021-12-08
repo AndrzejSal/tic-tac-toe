@@ -6,6 +6,7 @@ x = ["-","-","-"]
 y = ["-","-","-"]
 z = ["-","-","-"]
 
-
-print('\n',x,'\n',y,'\n',z)
+def plansza():
+    print('\n',x,'\n',y,'\n',z)
+plansza()
 k = print ("Podaj koordynaty pola")
