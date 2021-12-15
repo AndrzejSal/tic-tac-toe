@@ -11,23 +11,19 @@ def plansza():
 #plansza()
 #k = print ("Podaj koordynaty pola")
 def ustaw(co,gdzie):
-    if gdzie > 6:
+    gdzie -= 1
+    if gdzie > 5:
         gdzie-= 6
-        x.insert(gdzie, 'X')
-        x.remove(z[gdzie+1])
-    elif gdzie > 3:
-        gdzie -= 3
-        y.insert(gdzie, 'X')
-        y.remove(z[gdzie+1])
+        x[gdzie] = co
+    elif gdzie > 2:
+        gdzie -=3
+        y[gdzie] = co
     else:
-        z.insert(gdzie-1, 'X')
-        print(z)
-        #print(len(z))
-        z.insert(z[gdzie],gdzie)
-#        print(gdzie+1)
-        print(z)
-ustaw("X",3)
-print(z)
+        z[gdzie] = co
+        #print(z)
+ustaw("X",1)
+#print(y)
+plansza()
 
 def przeczytaj(gdzie):
     print(" ")
@@ -35,9 +31,22 @@ przeczytaj(5)
 
 
 
-
-
-
+ustaw("X",2)
+plansza()
+ustaw("X",3)
+plansza()
+ustaw("X",4)
+plansza()
+ustaw("X",5)
+plansza()
+ustaw("X",6)
+plansza()
+ustaw("X",7)
+plansza()
+ustaw("X",8)
+plansza()
+ustaw("X",9)
+plansza()
 
 
 
