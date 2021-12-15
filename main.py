@@ -12,21 +12,26 @@ def plansza():
 #k = print ("Podaj koordynaty pola")
 def ustaw(co,gdzie):
     if gdzie > 6:
+        gdzie-= 6
         x.insert(gdzie, 'X')
         x.remove(z[gdzie+1])
     elif gdzie > 3:
+        gdzie -= 3
         y.insert(gdzie, 'X')
         y.remove(z[gdzie+1])
     else:
         z.insert(gdzie-1, 'X')
         print(z)
         #print(len(z))
-        z.insert(z[gdzie],)
+        z.insert(z[gdzie],gdzie)
 #        print(gdzie+1)
         print(z)
 ustaw("X",3)
 print(z)
 
+def przeczytaj(gdzie):
+    print(" ")
+przeczytaj(5)
 
 
 
