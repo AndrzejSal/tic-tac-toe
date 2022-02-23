@@ -1,4 +1,4 @@
-#o = x = ([1,2],(1,2))
+import os#o = x = ([1,2],(1,2))
 #for i in range(10):
     #tem = input("?")
 #x.append('1')
@@ -7,6 +7,8 @@ y = ["-","-","-"]
 z = ["-","-","-"]
 
 def plansza():
+    #print('\n','\n','\n','\n','\n','\n','\n','\n')
+    #os.system("clear")
     print('\n',*x,'\n',*y,'\n',*z,sep=" ") #,end="").
 #plansza()
 #k = print ("Podaj koordynaty pola")
@@ -34,7 +36,8 @@ for i in range(1,10):
     #print("i {}".format(i))
     ustaw("X",i)
     plansza()
-
+#ustaw("XDDDDDDD",4)
+#plansza()
 
 
 
