@@ -7,7 +7,7 @@ y = ["-","-","-"]
 z = ["-","-","-"]
 
 def plansza():
-    print('\n',x,'\n',y,'\n',z)
+    print('\n',x,'\n',y,'\n',z)#,end="").
 #plansza()
 #k = print ("Podaj koordynaty pola")
 def ustaw(co,gdzie):
@@ -21,6 +21,7 @@ def ustaw(co,gdzie):
     else:
         z[gdzie] = co
         #print(z)
+#print("",end="")
 ustaw("X",1)
 #print(y)
 plansza()
@@ -30,26 +31,10 @@ def przeczytaj(gdzie):
 przeczytaj(5)
 
 
-
-ustaw("X",2)
-plansza()
-ustaw("X",3)
-plansza()
-ustaw("X",4)
-plansza()
-ustaw("X",5)
-plansza()
-ustaw("X",6)
-plansza()
-ustaw("X",7)
-plansza()
-ustaw("X",8)
-plansza()
-ustaw("X",9)
-plansza()
-
-
-
+for i in range(2,10):
+    #print("i {}".format(i))
+    ustaw("X",i)
+    plansza()
 
 
 
