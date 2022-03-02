@@ -30,8 +30,7 @@ def przeczytaj(gdzie):
     elif gdzie < 10:
         return (g[int(gdzie)])[int(gdzie-7)]
     else:
-        return ("Błąd adres"
-                "u")
+        return ("Błąd adresu")
 
 
 
