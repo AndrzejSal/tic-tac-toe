@@ -8,7 +8,7 @@ z = ["-","-","-"]
 
 def plansza():
     #print('\n','\n','\n','\n','\n','\n','\n','\n')
-    #os.system("clear")
+#    #os.system("clear")
     print('\n',*x,'\n',*y,'\n',*z,sep=" ") #,end="").
 #plansza()
 #k = print ("Podaj koordynaty pola")
