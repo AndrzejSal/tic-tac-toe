@@ -22,15 +22,10 @@ plansza()
 
 def przeczytaj(gdzie):
     global x,y,z
-    g = {1:z,2:z,3:z,4:y,5:y,6:y,7:x,8:x,9:x,}
-    if gdzie < 4:
-        return (g[int(gdzie)])[int(gdzie-1)]
-    elif gdzie < 7:
-        return (g[int(gdzie)])[int(gdzie-4)]
-    elif gdzie < 10:
-        return (g[int(gdzie)])[int(gdzie-7)]
-    else:
-        return ("Błąd adresu")
+    g = [z,y,x][(gdzie-1)//3]
+    return g[(gdzie-1)%3]
+    #else:
+    #    return ("Błąd adresu")
 
 
 
